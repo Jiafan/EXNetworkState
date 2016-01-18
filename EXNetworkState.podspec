@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.author             = { "加帆" => "jiafan.zhang@qq.com" }
   # Or just: s.author    = "加帆"
   # s.authors            = { "加帆" => "jiafan.zhang@qq.com" }
-  # s.social_media_url   = "http://twitter.com/加帆"
+  s.social_media_url   = "http://twitter.com/加帆"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "7.0"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
