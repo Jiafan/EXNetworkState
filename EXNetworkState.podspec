@@ -91,10 +91,10 @@ s.social_media_url   = "https://github.com/Jiafan/"
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "EXNetworkState", "Core/*.{h,m}"
+  s.source_files  = "EXNetworkState/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Core/*.h"
+  s.public_header_files = "EXNetworkState/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

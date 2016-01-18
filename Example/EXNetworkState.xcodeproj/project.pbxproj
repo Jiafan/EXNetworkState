@@ -15,10 +15,10 @@
 		905D9FAB1C4CC16D00416DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905D9FA91C4CC16D00416DCE /* LaunchScreen.storyboard */; };
 		905D9FB61C4CC16D00416DCE /* EXNetworkStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FB51C4CC16D00416DCE /* EXNetworkStateTests.m */; };
 		905D9FC11C4CC16D00416DCE /* EXNetworkStateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FC01C4CC16D00416DCE /* EXNetworkStateUITests.m */; };
-		905D9FD31C4CC2F300416DCE /* AppleReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FD01C4CC2F300416DCE /* AppleReachability.m */; };
-		905D9FD41C4CC2F300416DCE /* AppleReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FD01C4CC2F300416DCE /* AppleReachability.m */; };
-		905D9FD51C4CC2F300416DCE /* AppleReachability+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FD21C4CC2F300416DCE /* AppleReachability+EX.m */; };
-		905D9FD61C4CC2F300416DCE /* AppleReachability+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 905D9FD21C4CC2F300416DCE /* AppleReachability+EX.m */; };
+		90BC889D1C4CE58E001E30D4 /* AppleReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC889A1C4CE58E001E30D4 /* AppleReachability.m */; };
+		90BC889E1C4CE58E001E30D4 /* AppleReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC889A1C4CE58E001E30D4 /* AppleReachability.m */; };
+		90BC889F1C4CE58E001E30D4 /* AppleReachability+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC889C1C4CE58E001E30D4 /* AppleReachability+EX.m */; };
+		90BC88A01C4CE58E001E30D4 /* AppleReachability+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC889C1C4CE58E001E30D4 /* AppleReachability+EX.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		905D9FBC1C4CC16D00416DCE /* EXNetworkStateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EXNetworkStateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		905D9FC01C4CC16D00416DCE /* EXNetworkStateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EXNetworkStateUITests.m; sourceTree = "<group>"; };
 		905D9FC21C4CC16D00416DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		905D9FCF1C4CC2F300416DCE /* AppleReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleReachability.h; sourceTree = "<group>"; };
-		905D9FD01C4CC2F300416DCE /* AppleReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleReachability.m; sourceTree = "<group>"; };
-		905D9FD11C4CC2F300416DCE /* AppleReachability+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppleReachability+EX.h"; sourceTree = "<group>"; };
-		905D9FD21C4CC2F300416DCE /* AppleReachability+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppleReachability+EX.m"; sourceTree = "<group>"; };
+		90BC88991C4CE58E001E30D4 /* AppleReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppleReachability.h; path = ../EXNetworkState/AppleReachability.h; sourceTree = "<group>"; };
+		90BC889A1C4CE58E001E30D4 /* AppleReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppleReachability.m; path = ../EXNetworkState/AppleReachability.m; sourceTree = "<group>"; };
+		90BC889B1C4CE58E001E30D4 /* AppleReachability+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppleReachability+EX.h"; path = "../EXNetworkState/AppleReachability+EX.h"; sourceTree = "<group>"; };
+		90BC889C1C4CE58E001E30D4 /* AppleReachability+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppleReachability+EX.m"; path = "../EXNetworkState/AppleReachability+EX.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 		905D9F8F1C4CC16D00416DCE = {
 			isa = PBXGroup;
 			children = (
-				905D9FCE1C4CC24C00416DCE /* Core */,
+				90BC88A11C4CE593001E30D4 /* Core */,
 				905D9F9A1C4CC16D00416DCE /* EXNetworkState */,
 				905D9FB41C4CC16D00416DCE /* EXNetworkStateTests */,
 				905D9FBF1C4CC16D00416DCE /* EXNetworkStateUITests */,
@@ -149,15 +149,15 @@
 			path = EXNetworkStateUITests;
 			sourceTree = "<group>";
 		};
-		905D9FCE1C4CC24C00416DCE /* Core */ = {
+		90BC88A11C4CE593001E30D4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				905D9FCF1C4CC2F300416DCE /* AppleReachability.h */,
-				905D9FD01C4CC2F300416DCE /* AppleReachability.m */,
-				905D9FD11C4CC2F300416DCE /* AppleReachability+EX.h */,
-				905D9FD21C4CC2F300416DCE /* AppleReachability+EX.m */,
+				90BC88991C4CE58E001E30D4 /* AppleReachability.h */,
+				90BC889A1C4CE58E001E30D4 /* AppleReachability.m */,
+				90BC889B1C4CE58E001E30D4 /* AppleReachability+EX.h */,
+				90BC889C1C4CE58E001E30D4 /* AppleReachability+EX.m */,
 			);
-			path = Core;
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,10 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				905D9FA31C4CC16D00416DCE /* ViewController.m in Sources */,
-				905D9FD31C4CC2F300416DCE /* AppleReachability.m in Sources */,
+				90BC889D1C4CE58E001E30D4 /* AppleReachability.m in Sources */,
 				905D9FA01C4CC16D00416DCE /* AppDelegate.m in Sources */,
 				905D9F9D1C4CC16D00416DCE /* main.m in Sources */,
-				905D9FD51C4CC2F300416DCE /* AppleReachability+EX.m in Sources */,
+				90BC889F1C4CE58E001E30D4 /* AppleReachability+EX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				905D9FB61C4CC16D00416DCE /* EXNetworkStateTests.m in Sources */,
-				905D9FD61C4CC2F300416DCE /* AppleReachability+EX.m in Sources */,
-				905D9FD41C4CC2F300416DCE /* AppleReachability.m in Sources */,
+				90BC88A01C4CE58E001E30D4 /* AppleReachability+EX.m in Sources */,
+				90BC889E1C4CE58E001E30D4 /* AppleReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +522,7 @@
 				905D9FC71C4CC16D00416DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		905D9FC81C4CC16D00416DCE /* Build configuration list for PBXNativeTarget "EXNetworkStateTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +531,7 @@
 				905D9FCA1C4CC16D00416DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		905D9FCB1C4CC16D00416DCE /* Build configuration list for PBXNativeTarget "EXNetworkStateUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +540,7 @@
 				905D9FCD1C4CC16D00416DCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
