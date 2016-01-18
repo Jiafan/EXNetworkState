@@ -19,15 +19,32 @@ typedef NS_ENUM(NSInteger, NWStatus){
 };
 
 @interface AppleReachability (EX)
-/*判断网络是否可用*/
+
+/**
+ *  获取当前网络状态
+ *
+ *  @return 当前网络状态
+ */
 +(NWStatus)networkStatus;
 
-/*判断网络是否可用*/
+/**
+ *  获取当前网络状态字符串
+ *
+ *  @return 当前网络状态字符串
+ */
 +(NSString *)stringWithNetWorkStatus;
 
-/*判断是否是WIFI*/
+/**
+ *  判断是否是WIFI
+ *
+ *  @return 可用/不可用 BOOL 值
+ */
 +(BOOL)isWifiEnable;
 
-/*运营商代码*/
+/**
+ *  获取运营商代码
+ *
+ *  @return 运营商代码
+ */
 + (NSString *)getOperatorCode;
 @end
