@@ -9,7 +9,7 @@
 ## 集成使用的时候可以有两种姿势：
 
 1. 使用Cocoapods的同学可以：pod 'EXNetworkState'
-2. 喜欢自己管理源码的同学可以直接下载源代码，讲 EXNetworkState 目录加入项目就行。
+2. 喜欢自己管理源码的同学可以直接下载源代码，将 EXNetworkState 目录加入项目就行。
 
 ## 开放接口
 ### Apple Reachability 原有接口
